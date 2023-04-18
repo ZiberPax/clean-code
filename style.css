@@ -36,7 +36,7 @@
 .task {
   width: 56% !important;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -139,7 +139,7 @@
 }
 
 .ul-item > .task {
-  width: 226px
+  width: 226px;
 }
 
 .delete .button-image {
@@ -155,19 +155,19 @@
 /* Completed */
 
 #completed .label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
 .type-text {
-  display: none
+  display: none;
 }
 
 .edit-mode .type-text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .ul .ul-item.edit-mode .label {
