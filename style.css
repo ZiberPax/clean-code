@@ -34,7 +34,7 @@
 }
 
 .task {
-  width: 56%;
+  width: 56% !important;
   display: inline-block;
   flex-grow: 1
 }
@@ -83,7 +83,7 @@
   text-transform: uppercase;
 }
 
-.task {
+.task.type-text, #new-task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
